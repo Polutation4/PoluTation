@@ -34970,7 +34970,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 109px;
+  min-height: 146px;
 }
 
 .u-header .u-image-1 {
@@ -34990,7 +34990,7 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
-  margin: -50px auto 0 217px;
+  margin: -50px auto 0 251px;
   padding: 5px 31px 7px 30px;
 }
 
@@ -35004,26 +35004,27 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 5px 30px 7px;
 }
 
-.u-header .u-social-icons-1 {
-  height: 32px;
-  min-height: 16px;
-  width: 74px;
-  min-width: 42px;
-  margin: -40px 45px 60px auto;
-}
-
-.u-header .u-icon-1 {
-  height: 100%;
-}
-
 .u-header .u-icon-2 {
-  height: 100%;
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-header .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: -36px auto 60px 420px;
+  padding: 5px 31px 7px 30px;
+}
+
+.u-header .u-icon-3 {
   color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
   .u-header .u-btn-1 {
     margin-top: -50px;
-    margin-left: 17px;
+    margin-left: 51px;
   }
 
   .u-header .u-btn-2 {
@@ -35031,16 +35032,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-left: 0;
   }
 
-  .u-header .u-icon-1 {
-    color: rgb(59, 89, 152) !important;
-  }
-
-  .u-header .u-icon-2 {
-    color: rgb(85, 172, 238) !important;
+  .u-header .u-btn-3 {
+    margin-top: -36px;
+    margin-left: 220px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-btn-1 {
+    margin-left: 0;
+  }
+
+  .u-header .u-btn-3 {
     margin-left: 0;
   }
 }
@@ -35056,28 +35058,33 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   width: 417px;
-  margin: 49px auto;
+  margin: 20px auto 0;
+}
+
+.u-footer .u-social-icons-1 {
+  height: 49px;
+  min-height: 16px;
+  width: 108px;
+  min-width: 42px;
+  margin: 9px auto 20px;
+}
+
+.u-footer .u-icon-1 {
+  height: 100%;
+}
+
+.u-footer .u-icon-2 {
+  height: 100%;
+  color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-sheet-1 {
-    min-height: 99px;
+  .u-footer .u-social-icons-1 {
+    width: 108px;
   }
 }
-@media (max-width: 991px) {
-  .u-footer .u-sheet-1 {
-    min-height: 76px;
-  }
-}
-@media (max-width: 767px) {
-  .u-footer .u-sheet-1 {
-    min-height: 57px;
-  }
-}
-@media (max-width: 575px) {
-  .u-footer .u-sheet-1 {
-    min-height: 36px;
-  }
 
+
+@media (max-width: 575px) {
   .u-footer .u-text-1 {
     width: 340px;
   }
