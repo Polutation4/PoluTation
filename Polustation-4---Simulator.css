@@ -503,7 +503,7 @@
   width: 312px;
   background-image: none;
   animation-duration: 1000ms;
-  margin: -234px 82px 60px auto;
+  margin: -255px 82px -57px auto;
 }
 
 @media (max-width: 1199px) {
@@ -540,10 +540,4 @@
   .u-section-3 .u-text-2 {
     margin-right: 0;
   }
-}.u-section-4 {
-  background-image: none;
-}
-
-.u-section-4 .u-sheet-1 {
-  min-height: 50vw;
 }
