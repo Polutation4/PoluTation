@@ -1,0 +1,129 @@
+.u-section-1 {
+  background-image: url("images/asda2.png");
+  min-height: 1037px;
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-group-1 {
+  width: calc(((100% - 1140px) / 2) + 555px);
+  min-height: 217px;
+  margin: 165px auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 18px 8px 6px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  margin: 20px 0 0 22px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 542px;
+  height: 268px;
+  animation-duration: 1000ms;
+  margin: -252px calc(((100% - 1140px) / 2)) 0 auto;
+}
+
+.u-section-1 .u-image-2 {
+  width: 542px;
+  height: 282px;
+  animation-duration: 1000ms;
+  margin: -117px calc(((100% - 1140px) / 2)) 60px auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 {
+    min-height: 855px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 940px) / 2) + 555px);
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-right: calc(((100% - 940px) / 2));
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 {
+    min-height: 655px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 555px);
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-right: calc(((100% - 720px) / 2));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 {
+    min-height: 489px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 7px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 267px;
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 540px;
+    height: 281px;
+    margin-top: -116px;
+    margin-right: calc(((100% - 540px) / 2));
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 {
+    min-height: 286px;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 168px;
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 177px;
+    margin-top: -17px;
+    margin-right: calc(((100% - 340px) / 2));
+  }
+}

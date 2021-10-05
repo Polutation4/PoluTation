@@ -35014,11 +35014,25 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
-  margin: -36px auto 60px 420px;
+  margin: -36px auto 0 420px;
   padding: 5px 31px 7px 30px;
 }
 
 .u-header .u-icon-3 {
+  color: rgb(255, 255, 255) !important;
+}
+
+.u-header .u-btn-4 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin: -42px -55px 60px auto;
+  padding: 5px 31px 7px 30px;
+}
+
+.u-header .u-icon-4 {
   color: rgb(255, 255, 255) !important;
 }
 @media (max-width: 1199px) {
@@ -35035,6 +35049,11 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-btn-3 {
     margin-top: -36px;
     margin-left: 220px;
+  }
+
+  .u-header .u-btn-4 {
+    margin-top: -42px;
+    margin-right: 0;
   }
 }
 @media (max-width: 991px) {
